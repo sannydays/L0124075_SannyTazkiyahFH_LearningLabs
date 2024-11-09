@@ -22,7 +22,7 @@ body{
 header{
     background-image: url(images/w2eheader.jpg);
     text-align: center;
-    padding: 23m 0 23em 0;
+    padding: 23em 0 23em 0;
     flex: 1 1 100px;
 }
 
