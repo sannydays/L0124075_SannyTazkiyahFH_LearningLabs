@@ -1,0 +1,79 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    height:   95vh;
+    background:url(images/w2eheader.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(33, 25, 25);
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+}
+
+header{
+    background-image: url(images/w2eheader.jpg);
+    text-align: center;
+    padding: 23m 0 23em 0;
+    flex: 1 1 100px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(213, 209, 149, 0.718);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(180, 211, 234);
+}
+
+.navbar li{
+    float: left;
+}
+
+.left{
+    background: rgba(126, 160, 232, 0.85);
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+main{
+    background: rgba(126, 160, 232, 0.85);
+    padding: 3em 0 3em 0;
+    flex: 5 5 150px;
+}
+
+.right{
+    background: rgba(126, 160, 232, 0.85);
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    mian{
+        padding: 5em 0 5 em 0
+    }
+}
